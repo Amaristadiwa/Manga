@@ -1,0 +1,29 @@
+.comic-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.comic-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.15);
+}
+
+.comic-card img {
+  height: 14rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.comic-card .card-body {
+  padding: 1rem;
+  background: linear-gradient(to right, #f3f4f6, #e5e7eb);
+}
+
+.comic-card .card-body h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+}
